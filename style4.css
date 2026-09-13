@@ -120,39 +120,230 @@
     font-size: 1.25rem;
     font-weight: 400;
 }
-.counting-col-1{
+
+.counting-col-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
 }
-.counting-col-2{
+
+.counting-col-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.counting-col-3{
-     display: flex;
+
+.counting-col-3 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
 }
-.promo{
+
+.promotion {
+    width: 100%;
+    padding: 100px 300px;
+    position: relative;
+}
+
+.promo-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.promo-sub {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.promo {
+    height: 417px;
+    padding: 80px 100px;
+    background-color: #102926;
+    border-radius: 40px;
+    position: relative;
+}
+
+.promo-content {
+    position: absolute;
+    right: 100px;
+}
+
+.app {
+    display: flex;
+    gap: 24px;
+}
+
+.mobile {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+.testimonial {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.testimonial-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.testimonial-sub {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.testimonial-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-content {
+    padding: 15px;
+    width: 100%;
+    height: 683px;
+    display: flex;
+    align-items: end;
+    background-image: url(./Assets/Frame\ 266.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.review-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.review-sub {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.star {
+    text-align: left;
+}
+
+.fa-star {
+    color: #edaf49;
+}
+
+circle-check {
+    color: #6c6c83;
+}
+
+.varify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.acc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    padding: 20px;
+    width: 304px;
+    background-color: #e2fbf8;
+    border-radius: 20px;
+}
+
+.testimonial-row {
+    display: flex;
+    gap: 24px;
+}
+.faq{
+    padding: 100px 300px;
+}
+.faq-heading{
+     font-size: 2.5rem;
+    font-weight: 600;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.accordion-item{
+    background-color: #e2fbf8;
+}
+
+.book-car {
     padding: 100px 300px;
 }
 
+.book-col {
+    padding: 58px;
+    padding-left: 86px;
+    background-color: #4acba1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
 
-
-
-
-
-
-
-
+.car {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin: 0;
+    
+}
+.car-sub{
+     font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+.car-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px
+}
+.book{
+    padding: 13px 28px;
+    width: 132px;
+}
+.book-col-2{
+    background-image: url(./Assets/Frame\ 130.png);
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
 
 .partner {
     padding: 100px 300px;
