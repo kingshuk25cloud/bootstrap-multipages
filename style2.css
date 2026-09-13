@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+:root {
+    --font-size: 16px;
+    --color: rgb(143, 127, 127);
+}
+
+.header {
+    height: 900px;
+    padding: 0px 300px;
+    background-image: url(./Assets/detail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 30px 0px;
+}
+
+
+
+.container-fluid {
+    padding: 0;
+    display: flex;
+    gap: 84px;
+}
+
+.navigation-bar .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav {
+    width: 775px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ced4da;
+    border-radius: 68px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 882px;
+    padding: 100px 0px 250px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+}
+
+.hero-heading {
+    font-size: 4.625rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+.specification {
+    padding: 100px 300px;
+}
+
+.title {
+    font-size: 4.625rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+}
+
+.sub {
+    text-align: left;
+    margin: 0;
+}
+
+.dollar {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #5937E0;
+}
+
+.specification-col-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specification-col-heading {
+    padding: 0;
+}
+
+.btn-dark {
+    width: 180px;
+    height: 56px;
+}
+
+.car-model {
+    width: 100%;
+    height: 400px;
+    background-image: url(./Assets/detail\ image.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.car-view {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.specification-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.specification-col-2-headind {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+
+.specification-col-2-card {
+    background-color: #EBEAEA;
+    padding: 24px;
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 7px 5px 4px 0 #b4b4b4;
+    border-radius: 12px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.card-sub {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5a5a5a;
+    text-align: left;
+    margin: 0;
+}
+
+.specification-col-2-cards-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specification-col-2-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features-heading {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+.feature {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.features-1 {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.equipments {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specification-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.gellary {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.gellary-images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.gellary-heading {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.row-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 24px;
+}
+
+.col_1-0 {
+    width: 647px;
+    height: 350px;
+    background-image: url(./Assets/car\ 1.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.col_2-0 {
+    width: 647px;
+    height: 350px;
+    background-image: url(./Assets/car\ 2.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.col_3-0 {
+    width: 647px;
+    height: 350px;
+    background-image: url(./Assets/car\ 3.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.col_4-0 {
+    width: 647px;
+    height: 350px;
+    background-image: url(./Assets/car\ 4.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.col_5-0 {
+    width: 647px;
+    height: 350px;
+    background-image: url(./Assets/car\ 5.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.button_2 {
+    width: 165px;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 48px;
+    font-size: 1.125rem;
+    color: #1b1111;
+}
+
+.icon_2 {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: black;
+    color: #ffffff;
+}
+
+.card-heading {
+    font-size: 2.5rem;
+}
+
+.card-sub {
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: flex;
+    gap: 20px;
+}
+
+.card-headings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.stocks {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.stocks-heading {
+    font-size: 2.5rem;
+}
+
+.stocks-headings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.stocks-element {
+    width: 100%;
+}
+
+.stock::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: #405FF2;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner {
+    padding: 100px 300px;
+}
+
+.partner-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.button_2 {
+    width: 240px;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 48px;
+    font-size: 1.125rem;
+    color: #1b1111;
+}
+
+.icon_2 {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: black;
+    color: #ffffff;
+}
+
+.partner-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.brands {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    background: #000;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-row-1-col-1 {
+    display: flex;
+    align-items: left;
+}
+
+.footer-row-1-col-2 {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    background-color: #00b67a;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+}
+
+.address,
+.location {
+    margin: 0;
+}
+
+.footer-row-1 {
+    display: flex;
+    align-items: center;
+}
+
+.footer-row-2-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-row-2-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-row-2-col-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    color: white;
+}
+
+.text-border::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: relative;
+    left: 0;
+    top: 20px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.footer-row-3-col-1 {
+    text-align: left;
+    color: white;
+}
+
+.footer-row-3-col-2 {
+    text-align: right;
+    color: white;
+}
